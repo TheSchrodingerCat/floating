@@ -57,3 +57,37 @@ p{
 	float: left;
 	margin: 20px;
 }
+
+.img_3{
+	float: right;
+	margin: 20px;
+}
+
+.derecho{
+	width: 800px;
+	float: right;
+	background-color: #ecf7fb;
+	margin-left: 20px;
+}
+
+.derecho img{
+	float: left;
+	padding: 20px;
+}
+
+.izquierdo{
+	width: 400px;
+	float: right;
+	background-color: #ecf7fb;
+	padding: 20px;
+	margin-right: 20px;
+}
+
+.izquierdo img{
+	float: right;
+}
+
+.fotos p{
+	font-family: 'Prompt';
+	padding: 20px;
+}
