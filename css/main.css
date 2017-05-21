@@ -33,10 +33,10 @@ li a:hover:not(.active){
 }
 
 section{
-	/*overflow: auto;*/
 	margin-top: 20px;
 	background-color: #2c818b;
 	padding: 20px;
+	overflow: auto; /* para que no colapsen los contenedores */
 }
 
 .imagenes{
@@ -53,41 +53,63 @@ p{
 	font-family: 'Baloo Paaji';
 }
 
+.img_1{/* no estaba en el ejemplo */
+	margin: 20px;
+	width: 88%;
+}
+
 .img_2{
 	float: left;
 	margin: 20px;
+	width: 88%; /* no estaba en el ejemplo */
 }
 
 .img_3{
 	float: right;
 	margin: 20px;
+	width: 88%; /* no estaba en el ejemplo */
 }
 
 .derecho{
 	width: 800px;
 	float: right;
-	background-color: #ecf7fb;
+	background: #ecf7fb;
 	margin-left: 20px;
 }
 
 .derecho img{
 	float: left;
 	padding: 20px;
+	width: 95%; /* no estaba en el ejemplo */
 }
 
 .izquierdo{
 	width: 400px;
 	float: right;
-	background-color: #ecf7fb;
+	background: #ecf7fb;
 	padding: 20px;
 	margin-right: 20px;
 }
 
 .izquierdo img{
 	float: right;
+	padding: 20px;
+	width: 90%; /* no estaba en el ejemplo */
 }
 
 .fotos p{
 	font-family: 'Prompt';
 	padding: 20px;
+}
+
+.img_footer{
+	width: 10%;
+	float: right;
+}
+
+footer{
+	margin-top: 20px;
+	background-color: #2c818b;
+	overflow: auto;
+	padding: 30px;
 }
